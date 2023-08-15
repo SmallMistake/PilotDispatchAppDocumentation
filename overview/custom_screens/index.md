@@ -1,4 +1,4 @@
-# Tutorial for Cloud
+# Tutorial for Release
 
 Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
 
