@@ -4,7 +4,7 @@
 <Strong>Summary</Strong>: Creates an icon from the Material Icons list
 </blockquote>
 
-<img src="./images/component_examples/icon_example.png" alt="Italian Trulli">
+<img src="./images/component_examples/icon_example.png" alt="Icon Example">
 
 ## Schema Code
 

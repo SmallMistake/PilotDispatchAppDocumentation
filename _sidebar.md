@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 
 
-- [HOME](./)
-- [Overview](./overview/index)
+- [🏠 Home](./)
+- [📖 Overview](./overview/index)
   - [Screens](./overview/screens/index)
     - [Components](././overview/screens/components/index)
       * [Screen Icon](./overview/screens/components/screen_icon/index)
@@ -47,7 +47,8 @@
   * [Live Activities](./overview/live_activities/index)
   * [Error Reporting](./overview/error_reporting/index)
   * [Pilot Ladder Reporter](./overview/pilot_ladder_reporter/index)
-* [Tutorials](./tutorials/index)
+* [🏫 Tutorials](./tutorials/index)
   * [Live Messaging](./tutorials/live_messaging/index)
-  * [Release](./tutorials/release/index)
-* [About](./about/index)
+  * [Create a Screen](./tutorials/create_a_screen/index)
+  * [Create a Release](./tutorials/create_a_release/index)
+* [ℹ️ About](./about/index)

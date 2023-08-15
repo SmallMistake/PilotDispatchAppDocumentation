@@ -1,9 +1,4 @@
 
-# Tutorials for every technologist
+# Guided Tutorials
 
-Learn about all these great technologies:
-
-[Tomcat](./tomcat/index.md)
-[Cloud](./cloud/index.md)
-[Java](./java/index.md)
-[Release](./release/index.md)
+Please select any of the listed tutorials to get a step by step guide of any process you might want to know about. If you find a topic missing that you would like added, please let me know.
