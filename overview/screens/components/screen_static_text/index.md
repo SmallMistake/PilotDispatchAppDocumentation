@@ -1,10 +1,42 @@
-# Tutorial for Release
+# Screen String
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<blockquote>
+<Strong>Summary</Strong>: Displays the text exactly as entered on the Schema instead of changing based on data passed in
+</blockquote>
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+<img src="./images/component_examples/string_example.png" alt="Icon Example">
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
+## Schema Code
 
+### Required Paramters
+<strong>textToShow</strong>: String to show
+
+<blockquote>
+<pre>
+new ScreenStaticText(
+    "Vessel"
+)
+</pre>
+</blockquote>
+
+### Additional Paramters
+<strong>setFontSize</strong>: double<br>
+<strong>setFontWeight</strong>: FontWeight<br>
+<pre>
+    - thin
+    - regular
+    - bold
+</pre>
+<strong>setAlignment</strong>: AlignmentType<br>
+<pre>
+    - start
+    - center
+    - end
+    - spaceAround
+    - spaceEvenly
+</pre>
+
+<strong>setColorSet</strong>: ColorSet or ColorSetDefinition<br>
+<pre>
+    - Foreground color is used for text color
+</pre>

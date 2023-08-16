@@ -1,10 +1,41 @@
-# Tutorial for Release
+# Screen Row Sub Row
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<blockquote>
+<Strong>Summary</Strong>: Creates a Row inside of a Screen Row
+</blockquote>
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+<img src="./images/component_examples/hero_example.png" alt="Icon Example">
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
+## Schema Code
 
+### Required Paramters
+<strong>children</strong>: List\<ScreenRowItem><br>
+<blockquote>
+<pre>
+new ScreenRowSubRow(
+    new List<ScreenRowItem>
+    {
+        ...
+    }
+)
+</pre>
+</blockquote>
+
+### Additional Paramters
+<strong>setVerticalAlignment</strong>: AlignmentType<br>
+<pre>
+    - start
+    - center
+    - end
+    - spaceAround
+    - spaceEvenly
+</pre>
+<strong>setHorizontalAlignment</strong>: AlignmentType<br>
+<pre>
+    - start
+    - center
+    - end
+    - spaceAround
+    - spaceEvenly
+</pre>
+<strong>setSpacingBetweenChildren</strong>: int<br>

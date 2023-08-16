@@ -1,10 +1,31 @@
-# Tutorial for Release
+# Screen Hero
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<blockquote>
+<Strong>Summary</Strong>: Wraps a component with a Hero that can be used when expanding for more details
+</blockquote>
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+<img src="./images/component_examples/hero_example.png" alt="Icon Example">
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
+## Schema Code
 
+### Required Paramters
+<strong>heroTag</strong>: string<br>
+<pre>
+    - Tag used by Hero to ensure that duplicate Heroes do not conflict
+    - If you have a hero on each row make sure to vary it with unique data
+</pre>
+<strong>child</strong>: ScreenRowItem<br>
+
+<blockquote>
+<pre>
+new ScreenHero(
+    "shipCardCOE{RowNumber}",
+    child: new ScreenCard(
+        ...
+    )
+)
+</pre>
+</blockquote>
+
+### Additional Paramters
+None

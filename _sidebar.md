@@ -6,7 +6,6 @@
   - [Screens](./overview/screens/index)
     - [Components](././overview/screens/components/index)
       * [Screen Icon](./overview/screens/components/screen_icon/index)
-      * [Screen Date](./overview/screens/components/screen_date/index)
       * [Screen String](./overview/screens/components/screen_string/index)
       * [Screen Label](./overview/screens/components/screen_label/index)
       * [Screen Static Text](./overview/screens/components/screen_static_text/index)

@@ -1,10 +1,23 @@
-# Tutorial for Release
+# Screen Image
+<blockquote>
+<Strong>Summary</Strong>: Creates an image
+</blockquote>
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<img src="./images/component_examples/image_example.png" alt="Icon Example">
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+## Schema Code
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
+### Required Paramters
+<strong>imagePath</strong>: string<br>
 
+<blockquote>
+<pre>
+new ScreenImage(
+    "assets/images/MarineTrafficLogo.png"
+)
+</pre>
+</blockquote>
+
+### Additional Paramters
+<strong>setWidth</strong>: int<br>
+<strong>setHeight</strong>: int<br>

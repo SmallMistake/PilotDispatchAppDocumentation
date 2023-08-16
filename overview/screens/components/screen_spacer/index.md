@@ -1,10 +1,24 @@
-# Tutorial for Release
+# Screen Spacer
+<blockquote>
+<Strong>Summary</Strong>: Creates a spacer to add special space between elements
+</blockquote>
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<img src="./images/component_examples/spacer_example.png" alt="Icon Example">
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+## Schema Code
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
+### Required Paramters
+<strong>height</strong>: int<br>
+<strong>width</strong>: int<br>
 
+<blockquote>
+<pre>
+new ScreenSpacer(
+    10, 
+    1
+)
+</pre>
+</blockquote>
+
+### Additional Paramters
+None
