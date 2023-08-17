@@ -1,10 +1,10 @@
-# Tutorial for Release
+# Forms
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<blockquote>
+<strong>Summary</strong>: A screen type that focuses on getting input from a user and wokring on that data
+</blockquote>
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+## Overview
+This screen is great for when you need to ensure that data is valid and stable before sending it back to a server. It is not as flexible as the other screens and form parts can not have children.
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
-
+<img src="./images/form_example.png" alt="Icon Example">

@@ -1,10 +1,12 @@
-# Tutorial for Release
+# Components
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<blockquote>
+<strong>Summary</strong>: These represent the indiviual parts that can fill a screen
+</blockquote>
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+## Overview
+There are many different components you can choose from to build your screen. When adding a component, you will have required parameters as a part of the constructor. Additional settings are added by using their function call. Their function calls follow the pattern of:
+<code>.set[ParameterName]\([additionalParamters])</code>
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
-
+## Learn More
+You can learn more about a specific component by navigating to any of the component descriptions nested within this folder.

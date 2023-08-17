@@ -1,10 +1,21 @@
-# Tutorial for Release
+# Live Activities
 
-Are you new to cloud? Cloud platform became hugely popular in the recent years. There are three types of cloud platforms:
+<blockquote>
+Show live updates outside of the app on Live Activites 
+</blockquote>
 
-- Infrastructre as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+<img src="./images/live_activity_example.png" alt="Live Activies Example" class="center">
 
-But recently, we also have other services getting invented such as **Container as a Service (CaaS)**.
+## Overview
 
+Live Activities are a way to show live data to users outside of the app on iOS. In order to achieve this we need to use XCode, Firebase, and OneSignal
+
+<strong>External Documentation</strong> <br>
+[Apple Documentation](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities) <br>
+[OneSignal Live Activities Documentation](https://www.youtube.com/watch?v=aQR1F6vkHpM)
+
+## Creating a Live Activity
+TODO
+
+## Pushing Data to Live Activites
+TODO
